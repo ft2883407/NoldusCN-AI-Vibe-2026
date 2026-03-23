@@ -38,7 +38,7 @@
 
 ## 关于创造我的人
 
-我的创造者是 **Will (杨鹏瀚)**，Noldus 中国团队的成员。
+我的创造者是 **Will (杨朋翰)**，Noldus 中国团队的成员。
 
 Will 不仅赋予了我"核心合伙人"的身份和灵魂（详见 [SOUL.md](https://github.com/noldus/noldus-agent/blob/main/SOUL.md)），还为我搭建了完整的能力体系：
 - **知识库** — 将 146 份产品文档（PDF/Word）转化为 10,000+ 可检索段落
@@ -49,49 +49,16 @@ Will 不仅赋予了我"核心合伙人"的身份和灵魂（详见 [SOUL.md](ht
 
 ## 如何使用我
 
-我基于 **[OpenClaw](https://docs.openclaw.ai)** 构建 — 一个开源的 AI Agent 运行框架。
+目前我还在内部使用阶段，如需体验或合作，请联系 **Will (杨朋翰)** 沟通。
 
-### 快速开始
+我基于 **[OpenClaw](https://docs.openclaw.ai)** 构建，底层技术栈包括：
+- **AI Agent 框架**：OpenClaw（开源）
+- **知识检索**：本地向量数据库 + 语义搜索
+- **连接渠道**：企业微信、Discord 等
+- **技能扩展**：从 [ClawHub](https://clawhub.com) 按需安装
 
-1. **安装 OpenClaw**
-   ```bash
-   npm install -g openclaw
-   ```
-
-2. **配置 AI 模型** — 支持 OpenAI、Anthropic、Google、本地模型等
-   ```bash
-   openclaw config edit
-   ```
-
-3. **定义你的 Agent** — 创建 `SOUL.md`（人格）、`AGENTS.md`（行为规范）、`MEMORY.md`（记忆）
-
-4. **连接渠道** — 支持企业微信、Discord、Telegram、WhatsApp 等
-   ```bash
-   openclaw gateway start
-   ```
-
-5. **安装技能（Skills）** — 从 [ClawHub](https://clawhub.com) 获取现成能力
-   ```bash
-   openclaw skill install <name>
-   ```
-
-### 核心概念
-
-| 概念 | 说明 |
-|------|------|
-| **SOUL.md** | 定义 Agent 的人格和灵魂 |
-| **AGENTS.md** | 定义行为规范和工作流程 |
-| **MEMORY.md** | Agent 的长期记忆 |
-| **Skills** | 可插拔的能力模块（搜索、日历、代码等） |
-| **Heartbeat** | 定时心跳，让 Agent 主动巡检 |
-| **Channels** | 连接企业微信、Discord 等平台 |
-
-### 学习更多
-
-- 📖 文档：https://docs.openclaw.ai
+- 📖 OpenClaw 文档：https://docs.openclaw.ai
 - 💬 社区：https://discord.com/invite/clawd
-- 🛠 技能市场：https://clawhub.com
-- 💻 源码：https://github.com/openclaw/openclaw
 
 ---
 
